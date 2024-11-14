@@ -1,3 +1,3 @@
 #!/bin/bash
-# Iniciar el servidor Voila en Render
-voila --port=$PORT --no-browser Json_KML.ipynb
+# Configuración para iniciar Voilà en Render
+voila --port=$PORT --no-browser --host=0.0.0.0 Json_KML.ipynb
