@@ -1,2 +1,3 @@
 #!/bin/bash
-voila --port=$PORT --no-browser --enable_nbextensions=True Json_KML.ipynb
+# Iniciar el servidor Voila en Render
+voila --port=$PORT --no-browser --enable_nbextensions=True --ip=0.0.0.0 Json_KML.ipynb
